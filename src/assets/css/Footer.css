@@ -1,0 +1,14 @@
+.footer {
+  height: 30vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 30px;
+}
+.footer-main-title {
+  font-weight: bold;
+  text-shadow: 2px 2px blue;
+}
