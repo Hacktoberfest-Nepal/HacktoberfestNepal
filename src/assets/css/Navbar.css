@@ -1,0 +1,25 @@
+nav {
+  background: white;
+  border-bottom: 1px solid white;
+  padding: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+
+ul > a {
+  text-decoration: none;
+  list-style: none;
+}
+
+ul > a:hover {
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+  margin-left: 100px;
+  text-decoration: none;
+  font-weight: bold;
+}
