@@ -1,0 +1,25 @@
+.breadcrumb {
+  background: lightblue;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 30vh;
+  padding: 100px;
+}
+
+.breadcrumb-header {
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 52px;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+
+.breadcrumb-sub-header {
+  margin-top: 10px;
+}
+
+#breadcrumb-hr {
+  width: 250px;
+  border: 2px solid #ccc;
+}
