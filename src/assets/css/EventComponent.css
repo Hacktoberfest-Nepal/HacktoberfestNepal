@@ -8,6 +8,10 @@
   padding: 5px;
 }
 
+.styled-text-pink {
+  color: #ff007a;
+}
+
 div.event-wrapper .event-title {
   font-size: 2rem;
   font-weight: 600;
@@ -33,12 +37,12 @@ div.event-wrapper .event-description-text {
   /* mask: 1px solid blue; */
   line-height: 1;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgb(230, 230, 230);
+  -webkit-text-stroke-color: rgb(204, 203, 203);
 }
 
 .learn-more-button {
   padding: 1rem 4rem;
-  border: none;
+  border: 2px solid #ff007a;
   color: rgb(252, 252, 252);
   background-color: #ff007a;
   border-radius: 10rem;
@@ -47,5 +51,6 @@ div.event-wrapper .event-description-text {
 }
 
 .learn-more-button:hover {
-  background-color: rgb(20, 0, 67);
+  background-color: transparent;
+  color: #333333;
 }

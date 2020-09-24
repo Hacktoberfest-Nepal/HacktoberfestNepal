@@ -1,0 +1,13 @@
+.main-text {
+  font-size: 2.5rem;
+}
+
+.learn-more-button.button-purple {
+  background-color: rgb(49, 0, 184);
+  border: 2px solid rgb(49, 0, 184);
+}
+
+.learn-more-button.button-purple:hover {
+  background: transparent;
+  color: black;
+}
