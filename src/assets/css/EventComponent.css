@@ -1,0 +1,51 @@
+.event-component-wrapper {
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+.event-component-wrapper .event-image-wrapper {
+  /* border: 2px solid black; */
+  padding: 5px;
+}
+
+div.event-wrapper .event-title {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+div.event-wrapper .event-description-text {
+  font-size: 1rem;
+  color: rgb(39, 40, 43);
+}
+
+.event-component-wrapper .event-image-wrapper .event-image {
+  width: 100%;
+  border-radius: 2px 4rem;
+}
+
+.event-component-header {
+  padding: 5px;
+  font-size: 6rem;
+  font-weight: 800;
+  color: transparent;
+  text-transform: uppercase;
+  /* mask: 1px solid blue; */
+  line-height: 1;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(230, 230, 230);
+}
+
+.learn-more-button {
+  padding: 1rem 4rem;
+  border: none;
+  color: rgb(252, 252, 252);
+  background-color: #ff007a;
+  border-radius: 10rem;
+  transition: ease-in-out 0.2s;
+  box-shadow: 0px 11px 22px #a7a6a6;
+}
+
+.learn-more-button:hover {
+  background-color: rgb(20, 0, 67);
+}

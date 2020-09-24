@@ -1,0 +1,32 @@
+.timeout-outer-wrapper {
+  /* background-color: rgb(79, 118, 151); */
+  /* padding: 1rem; */
+  padding: 0;
+}
+
+.timeout-wrapper {
+  background-color: rgb(255, 255, 255);
+  margin-left: 10vw;
+  /* padding-left: 4rem; */
+  border-radius: 10rem 0 0 10rem;
+  box-shadow: 0 0 30px rgb(209, 209, 209);
+  justify-content: space-evenly;
+}
+
+.timeout-content h1 {
+  font-size: 2.5rem;
+}
+
+.timeout-date-time-wrapper {
+  color: rgb(89, 89, 89);
+}
+
+.date-time {
+  color: #ff007a;
+}
+
+@media screen and (max-width: 960px) {
+  .date-time {
+    font-size: 1.75rem;
+  }
+}
