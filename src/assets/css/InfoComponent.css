@@ -2,6 +2,17 @@
   font-size: 2.5rem;
 }
 
+@media screen and (max-width: 992px) {
+  .main-text {
+    font-size: 1.75rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-text {
+    font-size: 2.5rem;
+  }
+}
+
 .learn-more-button.button-purple {
   background-color: rgb(49, 0, 184);
   border: 2px solid rgb(49, 0, 184);

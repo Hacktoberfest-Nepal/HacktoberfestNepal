@@ -6,7 +6,7 @@ const InfoComponent = () => {
   return (
     <div className="container mx-auto info-component-wrapper pb-5 mb-5">
       <div className="info-wrapper row py-5">
-        <div className="info-content-wrapper col-8 align-self-center pt-3 pr-4">
+        <div className="info-content-wrapper col-12 col-md-8 align-self-center pb-5 pb-md-auto pt-3 pr-4">
           <p className="info-text-small"></p>
           <p className="main-text font-weight-bold">
             Contribute to the open source during the event. Open source is
@@ -23,11 +23,12 @@ const InfoComponent = () => {
           </div>
         </div>
 
-        <div className="info-image-wrapper col-4 align-self-center">
+        <div className="info-image-wrapper col-12 col-md-4 align-self-center">
           <img
             className="img-round d-block rounded-circle"
             src={infoImage}
             alt="Info"
+            width="100%"
           />
         </div>
       </div>

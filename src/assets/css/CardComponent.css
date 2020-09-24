@@ -1,0 +1,10 @@
+.card-component-wrapper {
+  background-color: #f8f9fa;
+  transition: all 0.2s;
+}
+
+.card-component-wrapper:hover {
+  /* box-shadow: 0 0 20px 2px rgb(209, 209, 209); */
+  background-color: #4849fa;
+  color: white;
+}

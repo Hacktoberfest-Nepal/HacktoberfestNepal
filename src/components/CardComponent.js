@@ -1,9 +1,15 @@
 import React from "react";
+import "../assets/css/CardComponent.css";
 
-const CardComponent = () => {
+const CardComponent = props => {
+  const { featureIcon: FeatureIcon, title, description } = props.data;
   return (
-    <div>
-      <h1>CardComponent</h1>
+    <div className="col-12 col-lg-3 col-md-4 mx-auto p-3 card-component-wrapper">
+      <h1>
+        <FeatureIcon className="card-icon" />
+      </h1>
+      <p className="card-title">{title}</p>
+      <p className="card-description">{description}</p>
     </div>
   );
 };
