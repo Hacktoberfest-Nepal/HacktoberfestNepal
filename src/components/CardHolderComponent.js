@@ -28,7 +28,7 @@ const cardDatas = [
 
 const CardHolderComponent = () => {
   return (
-    <div className="py-5 row container-fluid mx-auto my-5">
+    <div className="pb-5 row container-fluid mx-auto my-5">
       {cardDatas.map((cardData, index) => {
         return <CardComponent key={index} data={cardData} />;
       })}
