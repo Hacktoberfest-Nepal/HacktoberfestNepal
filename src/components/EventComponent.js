@@ -15,8 +15,8 @@ const EventComponent = () => {
       </div>
       <div className="col-12 col-md-6 mb-4 align-self-end">
         <h1 className="event-component-header">Event</h1>
-        <div>
-          <h3 className="event-title-header">The New Era of Tech Companies</h3>
+        <div className="event-wrapper">
+          <h3 className="event-title">The New Era of Tech Companies</h3>
           <p className="event-description-text">
             Lorem ipsum proin gravida nibh vel velit auctor aliquet.
             Aeneansollicitudin, lorem quis bibendum auctonisi elit consequat

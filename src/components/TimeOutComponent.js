@@ -43,15 +43,15 @@ const TimeOutComponent = () => {
   return (
     <div>
       <div className="container-fluid timeout-outer-wrapper m-0 p-0">
-        <div className="timeout-wrapper p-5 d-flex align-items-center justify-content-space-between">
-          <div className="timeout-content">
+        <div className="timeout-wrapper p-5 d-block d-lg-flex align-items-center justify-content-space-between">
+          <div className="timeout-content pl-5 p-lg-auto  col-12 col-lg-4">
             <h1 className="font-weight-normal">
               Counting on to
               <br />
               <span className="font-weight-light">the event?</span>
             </h1>
           </div>
-          <div className="timeout-date-time-wrapper pl-4">
+          <div className="timeout-date-time-wrapper pl-5 p-lg-auto col-12 col-lg-8 pl-4">
             {!isExpired ? (
               <p>
                 <span

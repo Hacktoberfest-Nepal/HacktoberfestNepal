@@ -5,11 +5,11 @@
 }
 
 .timeout-wrapper {
-  background-color: antiquewhite;
+  background-color: rgb(255, 255, 255);
   margin-left: 10vw;
   /* padding-left: 4rem; */
   border-radius: 10rem 0 0 10rem;
-  box-shadow: 0 0 30px 2px rgb(189, 189, 189);
+  box-shadow: 0 0 30px rgb(209, 209, 209);
   justify-content: space-evenly;
 }
 

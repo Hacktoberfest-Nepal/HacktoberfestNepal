@@ -1,5 +1,5 @@
 .event-component-wrapper {
-  padding-top: 3rem;
+  padding-top: 10rem;
   padding-bottom: 5rem;
 }
 
@@ -8,9 +8,20 @@
   padding: 5px;
 }
 
+div.event-wrapper .event-title {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+div.event-wrapper .event-description-text {
+  font-size: 1rem;
+  color: rgb(39, 40, 43);
+}
+
 .event-component-wrapper .event-image-wrapper .event-image {
   width: 100%;
-  border-radius: 2px 2rem;
+  border-radius: 2px 4rem;
 }
 
 .event-component-header {
