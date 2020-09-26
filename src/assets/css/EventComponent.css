@@ -9,7 +9,7 @@
 }
 
 .styled-text-pink {
-  color: #ff007a;
+  color: #f08ae5;
 }
 
 div.event-wrapper .event-title {
@@ -36,6 +36,9 @@ div.event-wrapper .event-description-text {
   text-transform: uppercase;
   /* mask: 1px solid blue; */
   line-height: 1;
+}
+
+.text-masked {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgb(204, 203, 203);
 }
