@@ -1,0 +1,53 @@
+.sponsor {
+  background-image: url("../images/sponsors/sponsor-background.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: 600px;
+}
+
+.sponserList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sponsorList > img {
+  height: 150px;
+  width: 250px;
+  object-fit: cover;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.sponsorList > img:hover {
+  transition: 0.5s ease-in;
+  transform: scale(1.1);
+}
+
+.default-hr {
+  width: 30%;
+  border: solid 2px pink;
+}
+
+.shadow-title {
+  padding: 5px;
+  font-size: 6rem;
+  font-weight: 800;
+  color: transparent;
+  text-transform: uppercase;
+  line-height: 1;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--default-color);
+}
+
+button.apply-button {
+  border-radius: 25px;
+  width: 200px;
+  font-weight: bold;
+  border: none;
+}
+
+button.apply-button:hover {
+  background-color: var(--default-color);
+  border: none;
+  outline: none;
+}

@@ -1,5 +1,5 @@
 .breadcrumb {
-  background: lightblue;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -13,13 +13,15 @@
   font-size: 52px;
   margin-top: 70px;
   margin-bottom: 10px;
+  color: white;
 }
 
 .breadcrumb-sub-header {
   margin-top: 10px;
+  color: white;
 }
 
 #breadcrumb-hr {
   width: 250px;
-  border: 2px solid #ccc;
+  border: 1px solid var(--default-color);
 }
