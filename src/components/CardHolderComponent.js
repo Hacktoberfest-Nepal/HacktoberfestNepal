@@ -1,7 +1,7 @@
 import React from "react";
 
 import { CgCodeClimate } from "react-icons/cg";
-import { MdDashboard, MdDescription } from "react-icons/md";
+import { MdDashboard } from "react-icons/md";
 import { SiSwagger } from "react-icons/si";
 import CardComponent from "./CardComponent";
 
