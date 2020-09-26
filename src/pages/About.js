@@ -1,6 +1,6 @@
 import React from "react";
 import BreadCrumb from "../components/BreadCrumb";
-import SponsorComponent from "../components/Sponsor";
+import SponsorComponent from "../components/about/Sponsor";
 
 const About = () => {
   return (
