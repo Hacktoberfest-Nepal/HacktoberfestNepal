@@ -1,0 +1,22 @@
+.speaker-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.speaker {
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.speaker > img {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.speaker-description {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5px;
+  font-size: 16px;
+}
