@@ -1,12 +1,16 @@
 .footer {
   height: 30vh;
-  background-color: black;
+  background-color: var(--default-color);
+  filter: contrast(0.9);
   color: white;
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
   padding: 30px;
+  background-image: url('../images/logo.png');
+  background-position: 12px;
+  background-repeat: no-repeat;
 }
 .footer-main-title {
   font-weight: bold;
