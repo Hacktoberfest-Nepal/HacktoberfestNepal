@@ -1,8 +1,9 @@
 .sponsor {
-  background-image: url("../images/sponsors/sponsor-background.svg");
+  /* background-image: url("../images/sponsors/sponsor-background.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position-x: 600px;
+  background-position-x: 60px;
+  background-color:transparent; */
 }
 
 .sponserList {
