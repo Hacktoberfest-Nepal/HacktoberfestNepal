@@ -5,8 +5,9 @@ import SpeakerList from "../components/speakers/SpeakerList";
 const Speakers = () => {
   return (
     <div>
-      <BreadCrumb menu="speakers" />
+      <BreadCrumb image="speaker-bg.png" title="Speakers" description="Speakers from expert fields" />
       <SpeakerList />
+
     </div>
   );
 };
