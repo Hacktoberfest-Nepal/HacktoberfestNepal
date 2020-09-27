@@ -6,7 +6,7 @@ const Title = (props) => {
     <div className="container mt-5">
       <h2 className="shadow-title">{props.title}</h2>
       <hr className="default-hr" />
-      <b>{props.description}</b>
+      <b class="text-muted">{props.description}</b>
     </div>
   );
 };
