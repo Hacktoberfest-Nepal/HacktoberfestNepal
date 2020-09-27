@@ -1,27 +1,7 @@
 .breadcrumb {
-  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
   display: flex;
   flex-direction: column;
   text-align: center;
   height: 30vh;
-  padding: 100px;
-}
-
-.breadcrumb-header {
-  text-transform: capitalize;
-  font-weight: 900;
-  font-size: 52px;
-  margin-top: 70px;
-  margin-bottom: 10px;
-  color: white;
-}
-
-.breadcrumb-sub-header {
-  margin-top: 10px;
-  color: white;
-}
-
-#breadcrumb-hr {
-  width: 250px;
-  border: 1px solid var(--default-color);
+  background-color: white;
 }
