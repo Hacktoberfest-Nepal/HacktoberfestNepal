@@ -38,7 +38,7 @@ const TimeOutComponent = () => {
   useEffect(() => {
     updateTime();
 
-    console.log("timeout");
+    // console.log("timeout");
   }, []);
   return (
     <div>
