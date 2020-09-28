@@ -22,7 +22,7 @@
 }
 
 .date-time {
-  color: #ff007a;
+  color: var(--default-color);
   font-size: 2.5rem;
 }
 
