@@ -5,6 +5,7 @@ import HeroBanner from "../components/HeroBanner";
 import InfoComponent from "../components/InfoComponent";
 import ScheduleComponent from "../components/ScheduleComponent";
 import TimeOutComponent from "../components/TimeOutComponent";
+import ContactComponent from "../components/ContactComponent";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <InfoComponent />
       <CardHolderComponent />
       <ScheduleComponent />
+      <ContactComponent />
     </div>
   );
 };
