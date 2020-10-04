@@ -20,7 +20,7 @@ const cardDatas = [
   },
   {
     featureIcon: SiSwagger,
-    title: "Contribution",
+    title: "Pull Requests",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ipsa accusantium laboriosam deserunt ipsum autem maxime eaque laborum maiores nam.",
   },
