@@ -85,7 +85,7 @@ const ScheduleItem = ({ detail }) => {
 const ScheduleComponent = () => {
   return (
     <div className="container">
-      <h1 className="schedule-component-header text-masked text-uppercase">
+      <h1 className="schedule-component-header text-masked text-uppercase text-break">
         Schedule
       </h1>
       <div className="row">
