@@ -38,7 +38,7 @@ const SpeakerList = () => {
           title="Software Engineer at LeapFrog"
           topic="Open Source Etiquettes"
           time="1:25pm to 2:00pm"
-          description="Yankee is a full-time associate software engineer at LeapFrog Inc. He works with Cloud Native Technologies for management of Backend services and Machine Learning services. He has also done a magnificient effort in open source community."
+          description="Yankee is an Open Source enthusiast working at Leapfrog. He works with Cloud Native Technologies for management of Backend services and Machine Learning services. He has also done a magnificient effort in open source community. He is also one of the core members driving KTMJS and Golang Nepal."
         />
 
         <Speaker
@@ -66,6 +66,15 @@ const SpeakerList = () => {
           topic="Git using Gitraken"
           time="3:15pm - 3:30 pm"
           description="A technology nerd Mircosoft Learn Student Ambassador and GitKraken Ambassador who is an enthusisat programmer who loves to solve real-life problems with the help of programming having done many projects like Relief Materials Management System, Tax Paying App and Library Management System"
+        />
+
+        <Speaker
+          name="Rashika Karki"
+          title="Summer 2020 MLH Fellow"
+          image="rashika.jpg"
+          topic="Journey to Opensource"
+          time="3:30pm - 4:00 pm"
+          description="Rashika is a prefinal year undergraduate student at Kathmandu University and Summer 2020 MLH Fellow.  She is passionate about coding and building tech-driven solutions and her interest is highly concentrated in the Data Science and Machine Learning domain. She also enjoys spending her time engaging herself in various tech-communities and is actively involved in various tof them such as Nepali Women in Computing, Code for Asia and Microsoft Student Ambassador Program."
         />
 
         {/* <Speaker name="Rashika Karki" title=" Journey to MLH fellow" topic="Getting started with CTF 101" time="11:30 am -11:40 am" description=" A quick brown fox jumps over the lazy dog" /> */}
