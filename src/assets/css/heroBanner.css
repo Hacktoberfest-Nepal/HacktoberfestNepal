@@ -1,7 +1,6 @@
 .hero-banner-wrapper {
   min-height: 50vh;
-  background: url("../images/logo.png"),
-    linear-gradient(-45deg, var(--default-color), #ffffff);
+  background: linear-gradient(-45deg, var(--default-color), #ffffff);
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;

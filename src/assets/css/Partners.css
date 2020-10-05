@@ -1,0 +1,19 @@
+.partners{
+    filter: contrast(0.9);
+    border-top:1px solid white;
+    color:#ccc;
+    border-bottom:2px solid white;
+}
+
+.partner-title{
+
+    text-transform: uppercase;
+}
+
+.partner-image{
+
+    height:100px;
+    width:100px;
+    object-fit:contain;
+    margin-left:30px;
+}

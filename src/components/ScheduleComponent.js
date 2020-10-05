@@ -92,9 +92,9 @@ const ScheduleItem = ({ detail }) => {
 const ScheduleComponent = () => {
   return (
     <div className="container">
-      <h1 className="schedule-component-header text-masked text-uppercase text-break">
+      {/* <h1 className="schedule-component-header text-masked text-uppercase text-break">
         Schedule
-      </h1>
+      </h1> */}
       <div className="row">
         <div className="col-2">
           <div className="bar w-100"></div>
@@ -104,25 +104,20 @@ const ScheduleComponent = () => {
             topic discussion and Timeline
           </h3>
 
-          <p className="schedule-description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
-            est commodi temporibus accusamus maxime aliquid ipsam quam earum
-            cumque soluta!
-          </p>
         </div>
       </div>
       <div className="schedule-content">
         <div>
           <div className="row">
             <div className="col-12 col-md-6 text-center timeline-header">
-              <h2 className="font-weight-bold">Event Day</h2>
+              <h2 className="font-weight-bold text-light">Event Day</h2>
               <p className="event-timestamp styled-text-pink font-weight-bold">
                 October 10, 2020, [11:00AM - 5:00PM]
               </p>
             </div>
           </div>
           {scheduleDetails.map(detail => (
-            <ScheduleItem key={detail.id} detail={detail} />
+            <ScheduleItem key={detail.id} detail={detail} data-aos="fade-up" data-aos-duration="1500" />
           ))}
         </div>
       </div>
