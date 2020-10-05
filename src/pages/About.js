@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import BreadCrumb from "../components/BreadCrumb";
 import SponsorComponent from "../components/about/Sponsor";
-import OrganizersComponent from "../components/about/Organizers";
+import InfoComponent from "../components/about/Info";
 
 const About = () => {
   useEffect(() => {
@@ -11,8 +11,8 @@ const About = () => {
   return (
     <div>
       <BreadCrumb image="about.png" title="About" description="All about Hacktoberfest" />
+      <InfoComponent />
       <SponsorComponent />
-      <OrganizersComponent />
     </div>
   );
 };
