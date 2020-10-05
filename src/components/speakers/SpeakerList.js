@@ -15,7 +15,10 @@ const SpeakerList = () => {
 
         <Speaker name="Yankee Maharjan" image="ymaharjan.jpg" title="Developer at LeapFrog" topic="Open Source Etiquettes" time="1:25pm to 2:00pm" description="Yankee is a full-time associate software engineer at LeapFrog Inc. He works with Cloud Native Technologies for management of Backend services and Machine Learning services. He has also done a magnificient effort in open source community." />
 
-        <Speaker name="Saroj Dahal" image="sdahal.jpg" title="RoadMap To Web Dev" topic="Getting started with CTF 101" time="11:30 am -11:40 am" description="Saroj was a former Java Developer at Infinite Tech Solutions Pvt. Ltd with 8+ years of engagements in programming. He works with various web technologies, currently working as freelancer on web security and cloud technologies. He is also a popular YouTube Content Creator at Everyday Karma" />
+        <Speaker name="Sajeetharan Sinnathurai" image="ssinnathurai.jpg" title="Cloud Solution Architect" topic="Microsoft and Open Source" time="2:00 pm - 2:30 pm" description="9+ Years of experience in the ICT industry, Sajeetharan Sinnathurai is a Cloud Solution Architect currently working at Microsoft as Cloud Solution Architect. His skill in Web Application Architecture, Cloud and more has seen him become a Mirosoft MVP in Developer Technologies, Google Developer Expert in Web Technology." />
+
+
+        <Speaker name="Saroj Dahal" image="sdahal.jpg" title="RoadMap To Web Dev" topic="Getting started with CTF 101" time="2:35 pm - 3:05 pm" description="Saroj was a former Java Developer at Infinite Tech Solutions Pvt. Ltd with 8+ years of engagements in programming. He works with various web technologies, currently working as freelancer on web security and cloud technologies. He is also a popular YouTube Content Creator at Everyday Karma" />
 
 
         <Speaker name="Manish Bhattarai" title="" image="mbhattarai.jpg" topic="Git using Gitraken" time="3:15pm - 3:30 pm" description="A technology nerd Mircosoft Learn Student Ambassador and GitKraken Ambassador who is an enthusisat programmer who loves to solve real-life problems with the help of programming having done many projects like Relief Materials Management System, Tax Paying App and Library Management System" />
