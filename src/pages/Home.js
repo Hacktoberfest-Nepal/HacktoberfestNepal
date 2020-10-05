@@ -5,17 +5,18 @@ import HeroBanner from "../components/HeroBanner";
 import InfoComponent from "../components/InfoComponent";
 import ScheduleComponent from "../components/ScheduleComponent";
 import TimeOutComponent from "../components/TimeOutComponent";
-// import ContactComponent from "../components/ContactComponent";
+import Partners from "../components/home/Partners"
 
 const Home = () => {
   return (
     <div>
       <HeroBanner />
       <TimeOutComponent />
-      <EventComponent />
+      {/* <EventComponent /> */}
       <InfoComponent />
-      <CardHolderComponent />
+      {/* <CardHolderComponent /> */}
       <ScheduleComponent />
+      <Partners />
       {/* <ContactComponent /> */}
     </div>
   );
