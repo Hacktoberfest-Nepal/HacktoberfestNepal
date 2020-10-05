@@ -1,9 +1,3 @@
-.sponsor {
-  background-image: url("../images/sponsors/sponsor-background.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position-x: 600px;
-}
 
 .sponserList {
   display: flex;

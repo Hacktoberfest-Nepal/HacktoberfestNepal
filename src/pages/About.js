@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import BreadCrumb from "../components/BreadCrumb";
-import SponsorComponent from "../components/Sponsor";
+import SponsorComponent from "../components/about/Sponsor";
+import InfoComponent from "../components/about/Info";
 
 const About = () => {
+  useEffect(() => {
+    document.title = "About"
+  }, []);
+
   return (
     <div>
-      <BreadCrumb menu="about" />
+      <BreadCrumb image="about.png" title="About" description="All about Hacktoberfest" />
+      <InfoComponent />
       <SponsorComponent />
     </div>
   );

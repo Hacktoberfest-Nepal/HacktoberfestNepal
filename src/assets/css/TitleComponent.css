@@ -1,0 +1,16 @@
+.shadow-title {
+  padding: 5px;
+  font-size: 6rem;
+  font-weight: 800;
+  color: transparent;
+  text-transform: uppercase;
+  line-height: 1;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--default-color);
+}
+
+.default-hr {
+  margin-left: 100px;
+  width: 30%;
+  border: solid 1px var(--default-color);
+}

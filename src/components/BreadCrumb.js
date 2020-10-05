@@ -1,13 +1,19 @@
 import React from "react";
 import "../assets/css/BreadCrumb.css";
+import TitleComponent from "../components/Title"
 
 const BreadCrumb = (props) => {
   return (
-    <div className="breadcrumb">
+
+    <div className="breadcrumb" style={{ backgroundColor: "white" }}>
+
+      <img src={require(`../assets/images/breadcrumb/${props.image}`)} alt="" style={{ objectFit: "contain", height: "300px" }} />
       <center>
-        <h2 className="breadcrumb-header">{props.menu}</h2>
-        <hr id="breadcrumb-hr" />
-        <span className="breadcrumb-sub-header">Home/{props.menu}</span>
+        <TitleComponent
+          title={props.title}
+          description={props.description}
+        />
+
       </center>
     </div>
   );

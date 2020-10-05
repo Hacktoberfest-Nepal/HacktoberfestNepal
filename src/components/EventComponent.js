@@ -14,7 +14,7 @@ const EventComponent = () => {
         />
       </div>
       <div className="col-12 col-md-6 mb-4 align-self-end">
-        <h1 className="event-component-header">Event</h1>
+        <h1 className="event-component-header text-masked text-break">Event</h1>
         <div className="event-wrapper pl-2">
           <h3 className="event-title">
             <span className="styled-text-pink">Open source</span> powers the

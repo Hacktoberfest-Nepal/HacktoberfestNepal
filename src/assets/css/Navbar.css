@@ -1,16 +1,20 @@
 nav {
+  margin-top: 20px;
   background: white;
   border-bottom: 1px solid white;
   padding: 10px;
-  font-size: 20px;
+  font-size: 16px;
   text-transform: uppercase;
   display: flex;
+  letter-spacing: 3px;
   justify-content: center;
+  /* position: relative; */
 }
 
 ul > a {
   text-decoration: none;
   list-style: none;
+  color: #333;
 }
 
 ul > a:hover {
@@ -19,7 +23,47 @@ ul > a:hover {
 
 li {
   display: inline;
-  margin-left: 100px;
+  margin-left: 50px;
   text-decoration: none;
   font-weight: bold;
+}
+
+.menu-bar {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  outline: none;
+  border: none;
+  background: transparent;
+  font-size: 2rem;
+  z-index: 999999;
+}
+.menu-bar:focus {
+  outline: none;
+}
+
+.overlay-navbar {
+  position: fixed;
+  background: rgb(0, 0, 0, 0.6);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay-nav-links {
+  display: block;
+}
+
+.overlay-nav-link {
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 1.75rem;
+  padding-top: 10px;
 }

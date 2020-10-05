@@ -7,6 +7,8 @@
 .timeout-wrapper {
   background-color: rgb(255, 255, 255);
   margin-left: 10vw;
+  margin-top: -2rem;
+  z-index: 99;
   /* padding-left: 4rem; */
   border-radius: 10rem 0 0 10rem;
   box-shadow: 0 0 30px rgb(209, 209, 209);
@@ -22,11 +24,18 @@
 }
 
 .date-time {
-  color: #ff007a;
+  color: var(--default-color);
+  font-size: 2.5rem;
 }
 
 @media screen and (max-width: 960px) {
-  .date-time {
+  span.date-time {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  span.date-time {
     font-size: 1.75rem;
   }
 }

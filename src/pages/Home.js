@@ -1,15 +1,23 @@
 import React from "react";
 import CardHolderComponent from "../components/CardHolderComponent";
 import EventComponent from "../components/EventComponent";
+import HeroBanner from "../components/HeroBanner";
 import InfoComponent from "../components/InfoComponent";
+import ScheduleComponent from "../components/ScheduleComponent";
 import TimeOutComponent from "../components/TimeOutComponent";
+import Partners from "../components/home/Partners"
 
 const Home = () => {
   return (
     <div>
-      <p>Home </p> <TimeOutComponent /> <EventComponent />
+      <HeroBanner />
+      <TimeOutComponent />
+      {/* <EventComponent /> */}
       <InfoComponent />
-      <CardHolderComponent />
+      {/* <CardHolderComponent /> */}
+      <ScheduleComponent />
+      <Partners />
+      {/* <ContactComponent /> */}
     </div>
   );
 };

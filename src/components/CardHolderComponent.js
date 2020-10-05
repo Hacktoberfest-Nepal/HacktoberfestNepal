@@ -1,7 +1,7 @@
 import React from "react";
 
 import { CgCodeClimate } from "react-icons/cg";
-import { MdDashboard, MdDescription } from "react-icons/md";
+import { MdDashboard } from "react-icons/md";
 import { SiSwagger } from "react-icons/si";
 import CardComponent from "./CardComponent";
 
@@ -20,7 +20,7 @@ const cardDatas = [
   },
   {
     featureIcon: SiSwagger,
-    title: "Contribution",
+    title: "Pull Requests",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ipsa accusantium laboriosam deserunt ipsum autem maxime eaque laborum maiores nam.",
   },
@@ -28,7 +28,7 @@ const cardDatas = [
 
 const CardHolderComponent = () => {
   return (
-    <div className="py-5 row container-fluid mx-auto my-5">
+    <div className="pb-5 row container-fluid mx-auto my-5">
       {cardDatas.map((cardData, index) => {
         return <CardComponent key={index} data={cardData} />;
       })}
