@@ -11,10 +11,11 @@
 }
 
 .timeline-header {
+  display: block;
   background: var(--default-color);
   /* background-color: aqua; */
   padding: 10px 0px;
-  margin: 0.5rem 1rem;
+  margin: 0.5rem 0rem;
   border-radius: 10px;
   transition: 0.1s;
 }
