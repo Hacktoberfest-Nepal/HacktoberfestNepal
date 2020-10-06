@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/HacktoberfestNepal/precache-manifest.d9a1334cabf6b2087c5f2984806a6a64.js"
+  "/HacktoberfestNepal/precache-manifest.89a0a7c91eacb357cfd3d0b8806b9d6a.js"
 );
 
 self.addEventListener('message', (event) => {

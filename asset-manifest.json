@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/HacktoberfestNepal/static/css/main.499001b5.chunk.css",
-    "main.js": "/HacktoberfestNepal/static/js/main.6acbfc1a.chunk.js",
-    "main.js.map": "/HacktoberfestNepal/static/js/main.6acbfc1a.chunk.js.map",
+    "main.js": "/HacktoberfestNepal/static/js/main.383503e8.chunk.js",
+    "main.js.map": "/HacktoberfestNepal/static/js/main.383503e8.chunk.js.map",
     "runtime-main.js": "/HacktoberfestNepal/static/js/runtime-main.4b18fd8d.js",
     "runtime-main.js.map": "/HacktoberfestNepal/static/js/runtime-main.4b18fd8d.js.map",
     "static/css/2.602c902f.chunk.css": "/HacktoberfestNepal/static/css/2.602c902f.chunk.css",
-    "static/js/2.3d2a08ce.chunk.js": "/HacktoberfestNepal/static/js/2.3d2a08ce.chunk.js",
-    "static/js/2.3d2a08ce.chunk.js.map": "/HacktoberfestNepal/static/js/2.3d2a08ce.chunk.js.map",
+    "static/js/2.b96361e7.chunk.js": "/HacktoberfestNepal/static/js/2.b96361e7.chunk.js",
+    "static/js/2.b96361e7.chunk.js.map": "/HacktoberfestNepal/static/js/2.b96361e7.chunk.js.map",
     "index.html": "/HacktoberfestNepal/index.html",
-    "precache-manifest.d9a1334cabf6b2087c5f2984806a6a64.js": "/HacktoberfestNepal/precache-manifest.d9a1334cabf6b2087c5f2984806a6a64.js",
+    "precache-manifest.89a0a7c91eacb357cfd3d0b8806b9d6a.js": "/HacktoberfestNepal/precache-manifest.89a0a7c91eacb357cfd3d0b8806b9d6a.js",
     "service-worker.js": "/HacktoberfestNepal/service-worker.js",
     "static/css/2.602c902f.chunk.css.map": "/HacktoberfestNepal/static/css/2.602c902f.chunk.css.map",
     "static/css/main.499001b5.chunk.css.map": "/HacktoberfestNepal/static/css/main.499001b5.chunk.css.map",
-    "static/js/2.3d2a08ce.chunk.js.LICENSE.txt": "/HacktoberfestNepal/static/js/2.3d2a08ce.chunk.js.LICENSE.txt",
+    "static/js/2.b96361e7.chunk.js.LICENSE.txt": "/HacktoberfestNepal/static/js/2.b96361e7.chunk.js.LICENSE.txt",
     "static/media/2.jpg": "/HacktoberfestNepal/static/media/2.d5b097fc.jpg",
     "static/media/about.png": "/HacktoberfestNepal/static/media/about.ef4545fe.png",
     "static/media/askbuddie.png": "/HacktoberfestNepal/static/media/askbuddie.7d655c01.png",
@@ -31,6 +31,7 @@
     "static/media/open-source-500x500.png": "/HacktoberfestNepal/static/media/open-source-500x500.d4a80ddf.png",
     "static/media/publicSpeaker.png": "/HacktoberfestNepal/static/media/publicSpeaker.c39f9cf4.png",
     "static/media/python_nepal.jpg": "/HacktoberfestNepal/static/media/python_nepal.f61fb3b9.jpg",
+    "static/media/rashika.jpg": "/HacktoberfestNepal/static/media/rashika.48fd51e8.jpg",
     "static/media/sdahal.jpg": "/HacktoberfestNepal/static/media/sdahal.751b1bbd.jpg",
     "static/media/speaker-bg.png": "/HacktoberfestNepal/static/media/speaker-bg.47229d36.png",
     "static/media/ssinnathurai.jpg": "/HacktoberfestNepal/static/media/ssinnathurai.9ff8609c.jpg"
@@ -38,8 +39,8 @@
   "entrypoints": [
     "static/js/runtime-main.4b18fd8d.js",
     "static/css/2.602c902f.chunk.css",
-    "static/js/2.3d2a08ce.chunk.js",
+    "static/js/2.b96361e7.chunk.js",
     "static/css/main.499001b5.chunk.css",
-    "static/js/main.6acbfc1a.chunk.js"
+    "static/js/main.383503e8.chunk.js"
   ]
 }
