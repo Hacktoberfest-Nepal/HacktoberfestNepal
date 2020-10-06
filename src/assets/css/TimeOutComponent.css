@@ -5,6 +5,7 @@
 }
 
 .timeout-wrapper {
+  padding:35px;
   background-color: rgb(255, 255, 255);
   margin-left: 10vw;
   margin-top: -2rem;
@@ -37,5 +38,24 @@
 @media screen and (max-width: 760px) {
   span.date-time {
     font-size: 1.75rem;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .timeout-wrapper{
+    height:20vh;
+    padding:25px;
+  }
+ 
+  h1.event-title{
+
+    font-size:20px;
+  }
+
+  span.date-time {
+    display: inline;
+    font-size: 1rem;
   }
 }

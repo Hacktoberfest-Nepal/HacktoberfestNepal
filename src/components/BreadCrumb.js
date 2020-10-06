@@ -7,7 +7,7 @@ const BreadCrumb = (props) => {
 
     <div className="breadcrumb" style={{ backgroundColor: "white" }}>
 
-      <img src={require(`../assets/images/breadcrumb/${props.image}`)} alt="" style={{ objectFit: "contain", height: "300px" }} />
+      <img src={require(`../assets/images/breadcrumb/${props.image}`)} className="img-fluid" alt="" style={{ objectFit: "contain", height: "300px" }} />
       <center>
         <TitleComponent
           title={props.title}

@@ -13,6 +13,13 @@
   background-position: 12px;
   background-repeat: no-repeat;
 }
+
+@media only screen and (max-width:768px){
+  .footer{
+    background-image:none;
+  }
+}
+
 .footer-main-title {
   font-weight: bold;
   text-shadow: 2px 2px blue;

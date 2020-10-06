@@ -5,6 +5,13 @@
     border-bottom:2px solid white;
 }
 
+@media only screen and (max-width:600px){
+    .partners > .row >  .col-lg-4,.col-lg-2{
+        
+        margin-top:40px;
+    }
+}
+
 .partner-title{
 
     text-transform: uppercase;

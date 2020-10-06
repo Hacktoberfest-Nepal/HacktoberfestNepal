@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import CardHolderComponent from "../components/CardHolderComponent";
 import EventComponent from "../components/EventComponent";
 import HeroBanner from "../components/HeroBanner";
