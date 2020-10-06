@@ -1,6 +1,6 @@
 import React from 'react'
 import "../../assets/css/Partners.css";
-import csitImage from "../../assets/images/partners/csit.jpg";
+import csitImage from "../../assets/images/partners/csit.png";
 import askBuddieImage from "../../assets/images/partners/askbuddie.png";
 import pythonNpImage from "../../assets/images/partners/python_nepal.jpg";
 import eventsNpImage from "../../assets/images/partners/eventsnp.jpg";
@@ -26,7 +26,7 @@ const Partners = () => {
 
                     <center><b class="partner-title">Organized By</b></center>
                     <br />
-                    <img src={csajuImage} alt="" className="partner-image" />
+                    <a href="https://www.facebook.com/Csaju10"><img src={csajuImage} alt="" className="partner-image" /></a>
                 </div>
 
                 <div className="col-lg-2 text-center">
