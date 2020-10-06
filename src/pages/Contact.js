@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ContactComp from "../components/ContactComponent";
 import BreadCrumb from "../components/BreadCrumb";
 
