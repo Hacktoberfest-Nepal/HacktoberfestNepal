@@ -8,6 +8,9 @@ import TimeOutComponent from "../components/TimeOutComponent";
 import Partners from "../components/home/Partners"
 
 const Home = () => {
+  useEffect(() => {
+    document.title = "Sagarmatha HacktoberFest | Home"
+  }, []);
   return (
     <div>
       <HeroBanner />
